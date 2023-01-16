@@ -14,7 +14,7 @@ module.exports = () => ({
           name: "root",
           filename: "remoteEntry.js",
           remotes: {
-            home: "home@http://localhost:3001/remoteEntry.js"
+            home: "home@https://micro-fe-home.vercel.app/remoteEntry.js"
           },
           shared: {
             ...deps,
